@@ -33,8 +33,8 @@ public class Invoice_example {
     // Main method to test the class
     public static void main(String[] args) {
         // Creating an Invoice object
-        Invoice_example invoice1 = new Invoice_example("Laptop", 2, 55000.0);
-        Invoice_example invoice2 = new Invoice_example("Pen", 10, 15.5);
+        Invoice_example invoice1 = new Invoice_example("NoteBook", 2, 50.0);
+        Invoice_example invoice2 = new Invoice_example("Pen", 3, 10.5);
 
         // Displaying invoice details
         invoice1.displayInvoice();
