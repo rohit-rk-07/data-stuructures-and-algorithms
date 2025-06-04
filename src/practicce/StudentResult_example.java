@@ -27,7 +27,7 @@ class StudentResult{
 	}
 	
 	void getGrade() {
-		System.out.println("Grade of "+name+" is "+avg);
+		System.out.println("Grade of "+name+"'s are "+avg);
 	}
 }
 
@@ -36,9 +36,15 @@ public class StudentResult_example {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		StudentResult stu1 = new StudentResult("Rohit", new int[]{65,53,78,55,54});
+		StudentResult stu2 = new StudentResult("Rahul", new int[]{65,53,78,55,54});
+
 		stu1.calculateTotal();
 		stu1.calculateAverage();
 		stu1.getGrade();
+		
+		stu2.calculateTotal();
+		stu2.calculateAverage();
+		stu2.getGrade();
 	}
 
 }
