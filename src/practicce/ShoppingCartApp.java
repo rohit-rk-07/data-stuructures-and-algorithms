@@ -1,3 +1,7 @@
+//Create classes: Product, CartItem, Cart.
+//Allow adding/removing products to/from the cart, and calculating the total bill.
+//Use encapsulation and collections (like ArrayList).
+
 package practicce;
 
 import java.util.ArrayList;
