@@ -74,8 +74,8 @@ public class SchoolManagement {
         t2.assignSubject(english);
 
         // Create students
-        Student s1 = new Student("Rohit");
-        Student s2 = new Student("Ananya");
+        Student_GFG s1 = new Student_GFG("Rohit");
+        Student_GFG s2 = new Student_GFG("Ananya");
 
         // Enroll students in subjects
         s1.enrollSubject(math);
