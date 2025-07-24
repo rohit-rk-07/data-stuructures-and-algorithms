@@ -32,7 +32,7 @@ class AccessModifierExampleDemo {
 }
 
 //Another class in the same package
-public class AccessModifierEample {
+class AccessModifierEample {
  public static void main(String[] args) {
      AccessModifierExampleDemo obj = new AccessModifierExampleDemo();
 
