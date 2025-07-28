@@ -24,5 +24,4 @@ public class copy_ArrayList {
 		  System.out.println("List1: "+List1);
 		  System.out.println("List2: "+List2);
 	}
-
 }
