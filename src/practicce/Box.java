@@ -1,6 +1,7 @@
 package practicce;
 
-public class Box<T> {
+class Box<T>{
+//	private Object value;
 	private T value;
 
 	public T getValue() {
@@ -12,3 +13,4 @@ public class Box<T> {
 	}
 	
 }
+
