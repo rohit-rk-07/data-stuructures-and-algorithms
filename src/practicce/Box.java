@@ -1,6 +1,6 @@
 package practicce;
 
-class Box<T>{
+class Box<T extends Number>{
 //	private Object value;
 	private T value;
 
