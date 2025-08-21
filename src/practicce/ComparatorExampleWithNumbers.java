@@ -27,3 +27,9 @@ public class ComparatorExampleWithNumbers {
 	}
 
 }
+
+//List = a group of numbers.
+//
+//Comparator object = a sorting rule.
+//
+//lists.sort(rule) = apply that sorting rule to arrange the list.
