@@ -1,0 +1,29 @@
+package practicce;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Comparator;
+
+class MyComparator1 implements Comparator<Integer>{
+	public int compare(Integer o1, Integer o2) {
+		return o1 - o2;
+	}
+}
+
+public class ComparatorExampleWithNumbers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> lists = new ArrayList<>();
+		lists.add(5);
+		lists.add(7);
+		lists.add(6);
+		lists.add(4);
+		lists.add(3);
+		
+		MyComparator1 comp = new MyComparator1();
+		
+		lists.sort(comp);
+		System.out.println(lists);
+	}
+
+}
