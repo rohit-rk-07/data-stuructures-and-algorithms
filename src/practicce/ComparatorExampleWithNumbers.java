@@ -5,7 +5,10 @@ import java.util.Comparator;
 
 class MyComparator1 implements Comparator<Integer>{
 	public int compare(Integer o1, Integer o2) {
-		return o1 - o2;
+//		return o1 - o2;
+		int res = o1 - o2;
+		System.out.println("compare(" + o1 + ", " + o2 + ") -> " + res);
+        return res;
 	}
 }
 
@@ -20,10 +23,16 @@ public class ComparatorExampleWithNumbers {
 		lists.add(4);
 		lists.add(3);
 		
-		MyComparator1 comp = new MyComparator1();
 		
-		lists.sort(comp);
-		System.out.println(lists);
+//		MyComparator1 comp = new MyComparator1();
+//		MyComparator1 comp2 = new MyComparator1();
+//		lists.sort(comp);
+//		lists.sort(comp2);
+		
+		lists.sort(new MyComparator1());
+		lists.sort(new MyComparator1());
+//		System.out.println(lists);
+//		System.out.println(lists);
 	}
 
 }
