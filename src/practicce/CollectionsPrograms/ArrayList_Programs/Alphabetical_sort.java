@@ -24,7 +24,7 @@ public class Alphabetical_sort {
                     // swap if they are in wrong order
                     String temp = fruits.get(j);
                     fruits.set(j, fruits.get(j + 1));
-                    fruits.set(j + 1, temp);
+                    fruits.set(j + 1, temp); 
                 }
             }
         }
