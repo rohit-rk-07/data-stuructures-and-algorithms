@@ -1,5 +1,4 @@
 package LinkedListPrograms;
-
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -22,7 +21,6 @@ public class iterate_specified {
 			System.out.println(p.next());
 		}
 	}
-
 }
 
 //Write a Java program to iterate through all elements in a linked list
