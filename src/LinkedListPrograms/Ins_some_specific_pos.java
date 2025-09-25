@@ -25,4 +25,4 @@ public class Ins_some_specific_pos {
 }
 //Write a Java program to insert some elements at the specified position into a linked list.
 //Methods used : .addAll() .add() 
-//.addAll() - Inserts all of the elements in the specified collection into thislist, starting at the specified position. 
+//.addAll() - Inserts all of the elements in the specified collection into this list, starting at the specified position. 
