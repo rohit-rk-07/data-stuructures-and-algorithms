@@ -10,7 +10,7 @@ public class Convert {
 		Stack<String> str_stk = new Stack<>();
 		ArrayList<String> list = new ArrayList<>();
 		
-		str_stk.push("a");
+		str_stk.push("a"); 
 		str_stk.push("b");
 		str_stk.push("c");
 		str_stk.push("d");
