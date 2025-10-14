@@ -56,5 +56,4 @@ public class Map_eg {
 			System.out.print(entry.getKey()+":"+entry.getValue()+", ");
 		}
 	}
-
 }
