@@ -1,2 +1,6 @@
 path
 C:\Users\91636\eclipse-workspace\Practice
+
+C:\Users\91636\eclipse-workspace\Logic_building
+
+C:\Users\91636\eclipse-workspace\DSA_GFG
