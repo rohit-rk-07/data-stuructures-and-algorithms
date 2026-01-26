@@ -40,6 +40,7 @@ public class Pattern6 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Pattern6 pt6 = new Pattern6();
+		pt6.pattern6(5);
 		pt6.pattern7(5);
 	}
 
