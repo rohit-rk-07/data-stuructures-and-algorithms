@@ -75,12 +75,73 @@ public class Pattern {
 	}
 
 	public void pattern19(int n) {
+		int spaces = 0;
 		for(int i=0;i<n;i++) {
 //			stars
-			
+			for(int j=1;j<=n-i;j++) {
+				System.out.print("*");
+			}
 //			spaces
-			
+			for(int j=0;j<spaces;j++) {
+				System.out.print(" ");
+			}
 //			stars
+			for(int j=1;j<=n-i;j++) {
+				System.out.print("*");
+			}
+			spaces += 2;
+			System.out.println(" ");
+		}
+		spaces = 8;
+		for(int i=1;i<=n;i++) {
+//			stars
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
+			}
+//			spaces
+			for(int j=0;j<spaces;j++) {
+				System.out.print(" ");
+			}
+//			stars
+			for(int j=1;j<=i;j++) {
+				System.out.print("*");
+			}
+			spaces -= 2;
+			System.out.println(" ");
+		}
+	}
+
+	public void pattern20(int n) {
+		int spaces = 2*n-2;
+		for(int i=1;i<=2*n-1;i++) {
+			int stars = i;
+//			stars
+			if(i>n) stars = 2*n-i;
+			for(int j=1;j<=stars;j++) {
+				System.out.print("*");
+			}
+//			spaces
+			for(int j=1;j<=spaces;j++) {
+				System.out.print(" ");
+			}
+//			stars
+			for(int j=1;j<=stars;j++) {
+				System.out.print("*");
+			}
+			System.out.println(" ");
+			if(i<n) spaces -= 2;
+			else spaces += 2;
+		}
+	}
+
+	public void pattern21(int n) {
+		for(int i=0;i<n;i++) {
+			for(int j=0;j<n;j++) {
+				if(i==0||j==0||i==n-1||j==n-1) {
+					System.out.print("*");
+				} else System.out.print(" ");
+			}
+			System.out.println("");
 		}
 	}
 	
@@ -88,7 +149,7 @@ public class Pattern {
 		// TODO Auto-generated method stubj
 //		System.out.println("hello");
 		Pattern pt = new Pattern();
-		pt.pattern18(5);
+		pt.pattern21(5);
 	}
 
 }
