@@ -5,9 +5,7 @@ public class Basic_math1 {
 	public int digit(int n) {
 		int count = 0;
 		while(n>0) {
-//			int res = n%10;
 			n = n/10;
-//			System.out.println(res);
 			count++;
 		}
 		return count;
