@@ -15,13 +15,13 @@ public class Hash_arr {
 		
 		int[] hash = new int[13];
 		for(int i=0;i<n;i++) {
-			hash[arr[i]]++;
+			hash[arr[i]]+=1;
 		}
 		
 		int q = input.nextInt();
 		while(q-- > 0) {
 			int number = input.nextInt();
-			System.out.println("this no of times: "+hash[number]);
+			System.out.println("this one for times: "+hash[number]);
 		}
 	}
 
