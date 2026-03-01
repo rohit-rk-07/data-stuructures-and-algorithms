@@ -19,20 +19,22 @@ public class Freq_Num_Map {
 		for(int i=0;i<n;i++) {
 			int key = arr[i];
 			int freq = 0;
-			if(mp.containsKey(key)) freq = mp.get(key);
+			if(mp.containsKey(key)) { 
+				freq = mp.get(key);
+			}
 			freq++;
 			mp.put(key, freq);
 		}
 		
-		int q;
-		q = in.nextInt();
-		int number;
-		number = in.nextInt();
-		
-		if(mp.containsKey(number))
-			System.out.println(mp.get(number));
-		else 
-			System.out.println(0);
+		int q = in.nextInt();
+		while(q-- > 0) {
+			int number = in.nextInt();
+			
+			if(mp.containsKey(number))
+				System.out.println(mp.get(number));
+			else 
+				System.out.println(0);
+		}
 	}
 
 }
