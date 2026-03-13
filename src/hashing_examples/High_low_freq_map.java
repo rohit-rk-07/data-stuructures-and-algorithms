@@ -25,17 +25,9 @@ public class High_low_freq_map {
 			}
 			
 		}
-
-//		Set<Map.Entry<Integer, Integer>> set = hm.entrySet();
-//		for (Map.Entry<Integer, Integer> mp : set) {
-//			
-////			System.out.println(me.getKey() + " " + me.getValue());
-//			
-//		}
 		
 		Set<Map.Entry<Integer, Integer>> set = hm.entrySet();
 
-		// Initialize with first element
 		boolean first = true;
 		int hf = 0, lf = 0;
 		int hfEle = 0, lfEle = 0;
