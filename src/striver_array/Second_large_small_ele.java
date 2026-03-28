@@ -4,19 +4,24 @@ public class Second_large_small_ele {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {2,2,2,5,5,1,7,8};
-		int sec_large=0, large=arr[0], small=arr[0], sec_small=0;
+		int arr[] = {5,6,7,7,2,3,4};
+		int sec_large=Integer.MIN_VALUE, large=arr[0], small=arr[0], sec_small=Integer.MAX_VALUE;
 		
 		
-		for(int i=0;i<arr.length-1;i++) {
+		for(int i=1;i<arr.length;i++) {
 			
-			if(arr[i+1] > large) {
+			if(arr[i] > large) {
 				 sec_large = large;
-				 large = arr[i+1];
+				 large = arr[i];
+			} else if(arr[i]>sec_large && arr[i]!=large) {
+				sec_large = arr[i];
 			}
-			if(arr[i+1] < small) {
+			
+			if(arr[i] < small) {
 				sec_small = small;
-				small = arr[i+1];
+				small = arr[i];
+			} else if(arr[i]<sec_small && arr[i]!=small) {
+				sec_small = arr[i];
 			}
 			
 		}
