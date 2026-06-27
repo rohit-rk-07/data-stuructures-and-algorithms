@@ -1,0 +1,12 @@
+package collections_api;
+
+
+
+public class collection1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
