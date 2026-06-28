@@ -1,4 +1,4 @@
-package comparable;
+package comparable_comparator;
 import java.util.*;
 
 class Student implements Comparable<Student>{

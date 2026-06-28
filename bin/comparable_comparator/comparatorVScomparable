@@ -1,0 +1,5 @@
+Comparator:
+	Used for custom sorting logic.
+
+Comparable:
+	Defines the natural ordering of a class.
