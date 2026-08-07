@@ -19,5 +19,5 @@ public class MissingElement {
 		int[] arr = {8,2,4,5,3,7,1};
 		MissingElement obj = new MissingElement();
 		System.out.println(obj.missingOne(arr));
-	}
+	} 
 }
