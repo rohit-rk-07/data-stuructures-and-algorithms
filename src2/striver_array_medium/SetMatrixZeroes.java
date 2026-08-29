@@ -1,0 +1,46 @@
+package striver_array_medium;
+
+public class SetMatrixZeroes {
+	
+	public int[][] setZeros(int[][] matrix) {
+		
+		int m = matrix.length;     //--> this m denotes the length of rows 
+		int n = matrix[0].length;  //--> this n denotes the length of columns
+		
+		boolean[] row = new boolean[m];
+		boolean[] col = new boolean[n];
+		
+		for(int i=0;i<m;i++) {
+			for(int j=0;j<n;j++) {
+				if(matrix[i][j] == 0) {
+					row[i]=true;
+					col[j]=true;
+				}
+			}
+		}
+		
+		for(int i=0;i<m;i++) {
+			for(int j=0;j<n;j++) {
+				if(row[i]||col[j]) {
+					matrix[i][j]=0;
+				}
+			}
+		}
+		
+		return matrix;
+	}
+
+	public static void main(String[] args) {
+		int[][] matrix = {{1,1,1},{1,0,1},{1,1,1}};
+		SetMatrixZeroes obj = new SetMatrixZeroes();
+		obj.setZeros(matrix);
+		
+		for (int[] row : matrix) {
+            for (int val : row) {
+                System.out.print(val + " ");
+            }
+            System.out.println();
+        }
+	}
+
+}
