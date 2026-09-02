@@ -32,7 +32,8 @@ public class Rotate_Arr_90d_Opti {
 	}
 
 	public static void main(String[] args) {
-		int[][] matrix = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+		int[][] matrix1 = {{1,2,3,4},{5,6,7,8},{9,10,11,12},{13,14,15,16}};
+		int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};
 		Rotate_Arr_90d_Opti obj = new Rotate_Arr_90d_Opti();
 		obj.rotateMatrix(matrix);
 
