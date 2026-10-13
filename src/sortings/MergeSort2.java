@@ -47,7 +47,6 @@ class MergeLogic {
 public class MergeSort2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = {3,1,2,4,1,5,6,2,4};
 		int low = 0;
 		int high = arr.length-1;
