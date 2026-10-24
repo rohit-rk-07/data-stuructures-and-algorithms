@@ -24,6 +24,10 @@ public class Merge2SortedArr {
 			if(i<n) arr1[i] = arr3[i];
 			else arr2[i-n] = arr3[i];
 		}
+		
+		for(int val:arr1) System.out.print(val+" ");
+		for(int val:arr2) System.out.print(val+" ");
+		
 	}
 
 	public static void main(String[] args) {
